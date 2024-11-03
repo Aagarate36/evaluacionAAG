@@ -2,7 +2,7 @@ from azure.cosmos import CosmosClient, exceptions
 from dotenv import load_dotenv
 import os
 
-# Obtener las variables de entorno
+# Obtener las variables de entornos
 COSMOS_ENDPOINT = 'https://acdbaagdev.documents.azure.com:443/'
 COSMOS_KEY = '8oHOT32pws5RuGgix7lZVkqRAFhtHcw5SFUPJutJPXAfK70Vcc5LU1nxj0BpGE5OJh2uj0lmUtwBACDbquRdhg=='
 DATABASE_NAME = 'GestorProyectosDB'
